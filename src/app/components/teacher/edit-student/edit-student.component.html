@@ -1,0 +1,44 @@
+<!-- name should be the same as the name in ngModule!! -->
+<form (ngSubmit) = "onSubmit()">    
+    <div class="form-row">
+        <div class="col">
+            <label for="name">Name:</label>
+            <input [(ngModel)] = "name"  type="text" class="form-control" id="name" name="name">
+            <small class="form-text text-muted">Example inform text under name</small>
+        </div>
+        <div class="col">
+            <label for="LastName">Last name:</label>
+            <input [(ngModel)] = "lastName" type="text" class="form-control" id="lastName" name="lastName">
+            <small class="form-text text-muted">Example inform text under name</small>
+        </div>
+        <div class="col">
+            <label for="age">Age:</label>
+            <input [(ngModel)] = "age" type="number" class="form-control" id="age" name="age">
+            <small class="form-text text-muted">Example inform text under name</small>
+        </div>
+        <div class="col">
+            <label for="street">Street:</label>
+            <input [(ngModel)] = "street" type="text" class="form-control" id="street" name="street">
+            <small class="form-text text-muted">Example inform text under name</small>
+        </div>
+        <div class="col">
+            <label for="mail">Mail</label>
+            <input [(ngModel)] = "mail" type="text" class="form-control" id="mail" name="mail">
+            <small class="form-text text-muted">Example inform text under name</small>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Edit student</button>
+</form>
+
+{{student?.id}}
+{{student?.name}}
+{{this.id}}
+{{this.street}}
+<br>
+<h1>ponizej</h1>
+{{name}}
+{{this.name}}
+<h1>maile</h1>
+{{student.mail}}
+{{mail}}
+{{this.mail}}

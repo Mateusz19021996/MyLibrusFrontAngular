@@ -1,0 +1,3135 @@
+{
+  "studenciaki": [
+    {
+      "id": 1,
+      "name": "string",
+      "lastName": "string",
+      "age": "number",
+      "street": "string",
+      "mail": "string"
+    },
+    {
+      "id": 2,
+      "name": "string2",
+      "lastName": "string2",
+      "age": "number2",
+      "street": "string2",
+      "mail": "string2"
+    },
+    {
+      "name": "asd",
+      "lastName": "ads",
+      "age": 4,
+      "street": "asd",
+      "mail": "asd@asd.pl",
+      "id": 3
+    },
+    {
+      "id": 4
+    }
+  ],
+  "students": [
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 1,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 1,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 1,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "stringssadasd",
+      "lastName": null,
+      "studentClass": "2A",
+      "age": 44,
+      "mail": "string@zmiania.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 2,
+          "studentFirstName": "stringssadasd",
+          "studentSurname": null
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 2,
+          "studentFirstName": "stringssadasd",
+          "studentSurname": null
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 2,
+          "studentFirstName": "stringssadasd",
+          "studentSurname": null
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 4,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 4,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 4,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    },
+    {
+      "name": "string",
+      "lastName": "string",
+      "studentClass": null,
+      "age": 3,
+      "mail": "stringasd@tr.pl",
+      "grades": []
+    },
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 6,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 6,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 6,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "Pawel",
+      "lastName": "Irak",
+      "studentClass": "2A",
+      "age": 43,
+      "mail": "pawel@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 7,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 7,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 7,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        }
+      ]
+    },
+    {
+      "name": "Filippa",
+      "lastName": "Eithard",
+      "studentClass": "1E",
+      "age": 23,
+      "mail": "filipa@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 8,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 2,
+          "subject": "English",
+          "studentId": 8,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 8,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 9,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 9,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 9,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    },
+    {
+      "name": "string",
+      "lastName": "string",
+      "studentClass": null,
+      "age": 9,
+      "mail": "string@wewe.pl",
+      "grades": []
+    },
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 11,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 11,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 11,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "Pawel",
+      "lastName": "Irak",
+      "studentClass": "2A",
+      "age": 43,
+      "mail": "pawel@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 12,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 12,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 12,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        }
+      ]
+    },
+    {
+      "name": "Filippa",
+      "lastName": "Eithard",
+      "studentClass": "1E",
+      "age": 23,
+      "mail": "filipa@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 13,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 2,
+          "subject": "English",
+          "studentId": 13,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 13,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 14,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 14,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 14,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    },
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 15,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 15,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 15,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "Pawel",
+      "lastName": "Irak",
+      "studentClass": "2A",
+      "age": 43,
+      "mail": "pawel@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 16,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 16,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 16,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        }
+      ]
+    },
+    {
+      "name": "Filippa",
+      "lastName": "Eithard",
+      "studentClass": "1E",
+      "age": 23,
+      "mail": "filipa@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 17,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 2,
+          "subject": "English",
+          "studentId": 17,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 17,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 18,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 18,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 18,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    },
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 19,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 19,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 19,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "Pawel",
+      "lastName": "Irak",
+      "studentClass": "2A",
+      "age": 43,
+      "mail": "pawel@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 20,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 20,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 20,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        }
+      ]
+    },
+    {
+      "name": "Filippa",
+      "lastName": "Eithard",
+      "studentClass": "1E",
+      "age": 23,
+      "mail": "filipa@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 21,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 2,
+          "subject": "English",
+          "studentId": 21,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 21,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 22,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 22,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 22,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    },
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 23,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 23,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 23,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "Pawel",
+      "lastName": "Irak",
+      "studentClass": "2A",
+      "age": 43,
+      "mail": "pawel@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 24,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 24,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 24,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        }
+      ]
+    },
+    {
+      "name": "Filippa",
+      "lastName": "Eithard",
+      "studentClass": "1E",
+      "age": 23,
+      "mail": "filipa@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 25,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 2,
+          "subject": "English",
+          "studentId": 25,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 25,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 26,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 26,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 26,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    },
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 1005,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 1005,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 1005,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "Pawel",
+      "lastName": "Irak",
+      "studentClass": "2A",
+      "age": 43,
+      "mail": "pawel@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 1006,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 1006,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 1006,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        }
+      ]
+    },
+    {
+      "name": "Filippa",
+      "lastName": "Eithard",
+      "studentClass": "1E",
+      "age": 23,
+      "mail": "filipa@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 1007,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 2,
+          "subject": "English",
+          "studentId": 1007,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 1007,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 1008,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 1008,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 1008,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    },
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 1009,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 1009,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 1009,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "Pawel",
+      "lastName": "Irak",
+      "studentClass": "2A",
+      "age": 43,
+      "mail": "pawel@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 1010,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 1010,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 1010,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        }
+      ]
+    },
+    {
+      "name": "Filippa",
+      "lastName": "Eithard",
+      "studentClass": "1E",
+      "age": 23,
+      "mail": "filipa@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 1011,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 2,
+          "subject": "English",
+          "studentId": 1011,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 1011,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 1012,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 1012,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 1012,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    },
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 1013,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 1013,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 1013,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "Pawel",
+      "lastName": "Irak",
+      "studentClass": "2A",
+      "age": 43,
+      "mail": "pawel@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 1014,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 1014,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 1014,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        }
+      ]
+    },
+    {
+      "name": "Filippa",
+      "lastName": "Eithard",
+      "studentClass": "1E",
+      "age": 23,
+      "mail": "filipa@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 1015,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 2,
+          "subject": "English",
+          "studentId": 1015,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 1015,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 1016,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 1016,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 1016,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    },
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2005,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 2005,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 2005,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "Pawel",
+      "lastName": "Irak",
+      "studentClass": "2A",
+      "age": 43,
+      "mail": "pawel@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 2006,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 2006,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 2006,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        }
+      ]
+    },
+    {
+      "name": "Filippa",
+      "lastName": "Eithard",
+      "studentClass": "1E",
+      "age": 23,
+      "mail": "filipa@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2007,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 2,
+          "subject": "English",
+          "studentId": 2007,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2007,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 2008,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 2008,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2008,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    },
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2009,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 2009,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 2009,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "Pawel",
+      "lastName": "Irak",
+      "studentClass": "2A",
+      "age": 43,
+      "mail": "pawel@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 2010,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 2010,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 2010,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        }
+      ]
+    },
+    {
+      "name": "Filippa",
+      "lastName": "Eithard",
+      "studentClass": "1E",
+      "age": 23,
+      "mail": "filipa@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2011,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 2,
+          "subject": "English",
+          "studentId": 2011,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2011,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 2012,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 2012,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2012,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    },
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2013,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 2013,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 2013,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "Pawel",
+      "lastName": "Irak",
+      "studentClass": "2A",
+      "age": 43,
+      "mail": "pawel@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 2014,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 2014,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 2014,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        }
+      ]
+    },
+    {
+      "name": "Filippa",
+      "lastName": "Eithard",
+      "studentClass": "1E",
+      "age": 23,
+      "mail": "filipa@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2015,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 2,
+          "subject": "English",
+          "studentId": 2015,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2015,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 2016,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 2016,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2016,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    },
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2017,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 2017,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 2017,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "Pawel",
+      "lastName": "Irak",
+      "studentClass": "2A",
+      "age": 43,
+      "mail": "pawel@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 2018,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 2018,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 2018,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        }
+      ]
+    },
+    {
+      "name": "Filippa",
+      "lastName": "Eithard",
+      "studentClass": "1E",
+      "age": 23,
+      "mail": "filipa@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2019,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 2,
+          "subject": "English",
+          "studentId": 2019,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2019,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 2020,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 2020,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2020,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    },
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2021,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 2021,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 2021,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "Pawel",
+      "lastName": "Irak",
+      "studentClass": "2A",
+      "age": 43,
+      "mail": "pawel@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 2022,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 2022,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 2022,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        }
+      ]
+    },
+    {
+      "name": "Filippa",
+      "lastName": "Eithard",
+      "studentClass": "1E",
+      "age": 23,
+      "mail": "filipa@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2023,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 2,
+          "subject": "English",
+          "studentId": 2023,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2023,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 2024,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 2024,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2024,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    },
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2025,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 2025,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 2025,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "Pawel",
+      "lastName": "Irak",
+      "studentClass": "2A",
+      "age": 43,
+      "mail": "pawel@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 2026,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 2026,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 2026,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        }
+      ]
+    },
+    {
+      "name": "Filippa",
+      "lastName": "Eithard",
+      "studentClass": "1E",
+      "age": 23,
+      "mail": "filipa@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2027,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 2,
+          "subject": "English",
+          "studentId": 2027,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2027,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 2028,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 2028,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2028,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    },
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2029,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 2029,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 2029,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "Pawel",
+      "lastName": "Irak",
+      "studentClass": "2A",
+      "age": 43,
+      "mail": "pawel@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 2030,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 2030,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 2030,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        }
+      ]
+    },
+    {
+      "name": "Filippa",
+      "lastName": "Eithard",
+      "studentClass": "1E",
+      "age": 23,
+      "mail": "filipa@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2031,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 2,
+          "subject": "English",
+          "studentId": 2031,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2031,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 2032,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 2032,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2032,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    },
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2033,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 2033,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 2033,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "Pawel",
+      "lastName": "Irak",
+      "studentClass": "2A",
+      "age": 43,
+      "mail": "pawel@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 2034,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 2034,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 2034,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        }
+      ]
+    },
+    {
+      "name": "Filippa",
+      "lastName": "Eithard",
+      "studentClass": "1E",
+      "age": 23,
+      "mail": "filipa@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2035,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 2,
+          "subject": "English",
+          "studentId": 2035,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2035,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 2036,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 2036,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2036,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    },
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2037,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 2037,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 2037,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "Pawel",
+      "lastName": "Irak",
+      "studentClass": "2A",
+      "age": 43,
+      "mail": "pawel@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 2038,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 2038,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 2038,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        }
+      ]
+    },
+    {
+      "name": "Filippa",
+      "lastName": "Eithard",
+      "studentClass": "1E",
+      "age": 23,
+      "mail": "filipa@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2039,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 2,
+          "subject": "English",
+          "studentId": 2039,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2039,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 2040,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 2040,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2040,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    },
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2041,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 2041,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 2041,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "Pawel",
+      "lastName": "Irak",
+      "studentClass": "2A",
+      "age": 43,
+      "mail": "pawel@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 2042,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 2042,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 2042,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        }
+      ]
+    },
+    {
+      "name": "Filippa",
+      "lastName": "Eithard",
+      "studentClass": "1E",
+      "age": 23,
+      "mail": "filipa@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2043,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 2,
+          "subject": "English",
+          "studentId": 2043,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2043,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 2044,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 2044,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2044,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    },
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2045,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 2045,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 2045,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "Pawel",
+      "lastName": "Irak",
+      "studentClass": "2A",
+      "age": 43,
+      "mail": "pawel@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 2046,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 2046,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 2046,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        }
+      ]
+    },
+    {
+      "name": "Filippa",
+      "lastName": "Eithard",
+      "studentClass": "1E",
+      "age": 23,
+      "mail": "filipa@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2047,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 2,
+          "subject": "English",
+          "studentId": 2047,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2047,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 2048,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 2048,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2048,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    },
+    {
+      "name": "Mateusz",
+      "lastName": "Ulaniec",
+      "studentClass": "3B",
+      "age": 18,
+      "mail": "mateusza@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2049,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 5,
+          "subject": "English",
+          "studentId": 2049,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        },
+        {
+          "singleGrade": 3,
+          "subject": "Chemist",
+          "studentId": 2049,
+          "studentFirstName": "Mateusz",
+          "studentSurname": "Ulaniec"
+        }
+      ]
+    },
+    {
+      "name": "Pawel",
+      "lastName": "Irak",
+      "studentClass": "2A",
+      "age": 43,
+      "mail": "pawel@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 6,
+          "subject": "Math",
+          "studentId": 2050,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "English",
+          "studentId": 2050,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        },
+        {
+          "singleGrade": 6,
+          "subject": "Chemist",
+          "studentId": 2050,
+          "studentFirstName": "Pawel",
+          "studentSurname": "Irak"
+        }
+      ]
+    },
+    {
+      "name": "Filippa",
+      "lastName": "Eithard",
+      "studentClass": "1E",
+      "age": 23,
+      "mail": "filipa@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 1,
+          "subject": "Math",
+          "studentId": 2051,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 2,
+          "subject": "English",
+          "studentId": 2051,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2051,
+          "studentFirstName": "Filippa",
+          "studentSurname": "Eithard"
+        }
+      ]
+    },
+    {
+      "name": "aleksandra",
+      "lastName": "Łajs",
+      "studentClass": "2A",
+      "age": 34,
+      "mail": "aleksandra@xd.pl",
+      "grades": [
+        {
+          "singleGrade": 4,
+          "subject": "Math",
+          "studentId": 2052,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "English",
+          "studentId": 2052,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        },
+        {
+          "singleGrade": 4,
+          "subject": "Chemist",
+          "studentId": 2052,
+          "studentFirstName": "aleksandra",
+          "studentSurname": "Łajs"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 1
+    },
+    {
+      "id": 2,
+      "street": "stringasdzmiana",
+      "mail": "string@zmiania.pl",
+      "studentId": 2
+    },
+    {
+      "id": 4,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 4
+    },
+    {
+      "id": 5,
+      "street": "string",
+      "mail": "stringasd@tr.pl",
+      "studentId": 5
+    },
+    {
+      "id": 6,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 6
+    },
+    {
+      "id": 7,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 7
+    },
+    {
+      "id": 8,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 8
+    },
+    {
+      "id": 9,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 9
+    },
+    {
+      "id": 10,
+      "street": "string",
+      "mail": "string@wewe.pl",
+      "studentId": 10
+    },
+    {
+      "id": 11,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 11
+    },
+    {
+      "id": 12,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 12
+    },
+    {
+      "id": 13,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 13
+    },
+    {
+      "id": 14,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 14
+    },
+    {
+      "id": 15,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 15
+    },
+    {
+      "id": 16,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 16
+    },
+    {
+      "id": 17,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 17
+    },
+    {
+      "id": 18,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 18
+    },
+    {
+      "id": 19,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 19
+    },
+    {
+      "id": 20,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 20
+    },
+    {
+      "id": 21,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 21
+    },
+    {
+      "id": 22,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 22
+    },
+    {
+      "id": 23,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 23
+    },
+    {
+      "id": 24,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 24
+    },
+    {
+      "id": 25,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 25
+    },
+    {
+      "id": 26,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 26
+    },
+    {
+      "id": 1005,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 1005
+    },
+    {
+      "id": 1006,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 1006
+    },
+    {
+      "id": 1007,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 1007
+    },
+    {
+      "id": 1008,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 1008
+    },
+    {
+      "id": 1009,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 1009
+    },
+    {
+      "id": 1010,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 1010
+    },
+    {
+      "id": 1011,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 1011
+    },
+    {
+      "id": 1012,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 1012
+    },
+    {
+      "id": 1013,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 1013
+    },
+    {
+      "id": 1014,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 1014
+    },
+    {
+      "id": 1015,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 1015
+    },
+    {
+      "id": 1016,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 1016
+    },
+    {
+      "id": 2005,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 2005
+    },
+    {
+      "id": 2006,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 2006
+    },
+    {
+      "id": 2007,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 2007
+    },
+    {
+      "id": 2008,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 2008
+    },
+    {
+      "id": 2009,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 2009
+    },
+    {
+      "id": 2010,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 2010
+    },
+    {
+      "id": 2011,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 2011
+    },
+    {
+      "id": 2012,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 2012
+    },
+    {
+      "id": 2013,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 2013
+    },
+    {
+      "id": 2014,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 2014
+    },
+    {
+      "id": 2015,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 2015
+    },
+    {
+      "id": 2016,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 2016
+    },
+    {
+      "id": 2017,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 2017
+    },
+    {
+      "id": 2018,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 2018
+    },
+    {
+      "id": 2019,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 2019
+    },
+    {
+      "id": 2020,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 2020
+    },
+    {
+      "id": 2021,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 2021
+    },
+    {
+      "id": 2022,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 2022
+    },
+    {
+      "id": 2023,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 2023
+    },
+    {
+      "id": 2024,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 2024
+    },
+    {
+      "id": 2025,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 2025
+    },
+    {
+      "id": 2026,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 2026
+    },
+    {
+      "id": 2027,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 2027
+    },
+    {
+      "id": 2028,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 2028
+    },
+    {
+      "id": 2029,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 2029
+    },
+    {
+      "id": 2030,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 2030
+    },
+    {
+      "id": 2031,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 2031
+    },
+    {
+      "id": 2032,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 2032
+    },
+    {
+      "id": 2033,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 2033
+    },
+    {
+      "id": 2034,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 2034
+    },
+    {
+      "id": 2035,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 2035
+    },
+    {
+      "id": 2036,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 2036
+    },
+    {
+      "id": 2037,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 2037
+    },
+    {
+      "id": 2038,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 2038
+    },
+    {
+      "id": 2039,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 2039
+    },
+    {
+      "id": 2040,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 2040
+    },
+    {
+      "id": 2041,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 2041
+    },
+    {
+      "id": 2042,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 2042
+    },
+    {
+      "id": 2043,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 2043
+    },
+    {
+      "id": 2044,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 2044
+    },
+    {
+      "id": 2045,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 2045
+    },
+    {
+      "id": 2046,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 2046
+    },
+    {
+      "id": 2047,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 2047
+    },
+    {
+      "id": 2048,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 2048
+    },
+    {
+      "id": 2049,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 2049
+    },
+    {
+      "id": 2050,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 2050
+    },
+    {
+      "id": 2051,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 2051
+    },
+    {
+      "id": 2052,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 2052
+    },
+    {
+      "id": 2053,
+      "street": "ul mateusza",
+      "mail": "mateusza@xd.pl",
+      "studentId": 2053
+    },
+    {
+      "id": 2054,
+      "street": "ul pawla",
+      "mail": "pawel@xd.pl",
+      "studentId": 2054
+    },
+    {
+      "id": 2055,
+      "street": "ulica filipy",
+      "mail": "filipa@xd.pl",
+      "studentId": 2055
+    },
+    {
+      "id": 2056,
+      "street": "ulica aleksandry",
+      "mail": "aleksandra@xd.pl",
+      "studentId": 2056
+    }
+  ],
+  "users": [
+    {
+      "id": 2053,
+      "firstName": "Franczela",
+      "lastName": "Dizmo",
+      "passwordHashed": "AQAAAAEAACcQAAAAEL8OE3gTUMmTKtnv6gYPdcSkqXBOR5bbzKdJfHrguIo98GJiDn/84O8+N40xIhR6Aw==",
+      "mail": "admin@api.pl",
+      "dateOfBirth": null,
+      "nationality": null,
+      "roleId": 3,
+      "role": null
+    },
+    {
+      "id": 2054,
+      "firstName": "Tymek",
+      "lastName": "Bemka",
+      "passwordHashed": "AQAAAAEAACcQAAAAEMg6+aowPPzQNyPp+pvtjw7CHUfwTJuC6hYKs8AprV/qjvmPdkjAaitdBTOA6W/vkQ==",
+      "mail": "teacherk@api.pl",
+      "dateOfBirth": null,
+      "nationality": null,
+      "roleId": 2,
+      "role": null
+    },
+    {
+      "id": 2055,
+      "firstName": "kuba",
+      "lastName": "okurowski",
+      "passwordHashed": "AQAAAAEAACcQAAAAEJkzYthewInvFHaLaIWj0QqQD4mjNkYHa7QQhLRZ4xo8cnNVvzsER1HiB2p2DPvggA==",
+      "mail": "student@api.pl",
+      "dateOfBirth": null,
+      "nationality": null,
+      "roleId": 1,
+      "role": null
+    },
+    {
+      "id": 2056,
+      "firstName": "Mariusz",
+      "lastName": "Lajs",
+      "passwordHashed": "AQAAAAEAACcQAAAAEGBnI9wMRArPJ1ShXiCBjy2YbrtxgOQsAUn7lqchS02H4FSthJG6000b/FfQJW7Ufw==",
+      "mail": "kalisz@kalisz.pl",
+      "dateOfBirth": null,
+      "nationality": null,
+      "roleId": 1,
+      "role": null
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "roleName": "Student"
+    },
+    {
+      "id": 2,
+      "roleName": "Teacher"
+    },
+    {
+      "id": 3,
+      "roleName": "Admin"
+    }
+  ]
+}

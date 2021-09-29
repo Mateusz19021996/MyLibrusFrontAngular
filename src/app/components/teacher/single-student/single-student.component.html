@@ -1,0 +1,22 @@
+<div> 
+
+    <div style="
+    background-color: rgb(251, 251, 251);
+    ">    
+        <div style="
+        font-size: 30px;
+        margin-left: 30px;
+        ">
+        <fa-icon [icon]="faUserGraduate" class = "fa-3x"></fa-icon>
+            {{name}}
+            {{lastName}}
+            {{studentClass}}
+        </div>
+    </div>
+    <app-single-subject-grades *ngFor = "let grades of listOfGrades" [testt] = "grades" [grade] = "grades.grades">
+    </app-single-subject-grades>
+</div>
+
+
+
+<!-- *ngFor = "let grades of listOfGrades" -->
