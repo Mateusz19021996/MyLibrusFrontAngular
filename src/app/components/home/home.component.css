@@ -1,0 +1,70 @@
+.container{
+    position: relative;
+    margin: auto;
+    width: 80vw;
+    height: 80vh;
+    border: 8px solid blue;    
+    text-align: center;
+}
+
+.element {
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    margin: auto;            
+}
+
+.flex-parent {
+    text-align: center;
+    display: flex;
+    margin: auto;
+  }
+  
+.jc-center {
+    justify-content: center;
+    margin: auto;
+  }
+
+.div1{
+    background-color: aqua;
+    margin: auto;    
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    
+}
+
+.div2{
+    background-color: blue;
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 50px;
+    
+}
+
+.btns {
+
+}
+
+#outer {
+    width:300px; 
+    height:250px; 
+    /* background:#FFCCCC; */
+    border-style: solid;
+    border-color: rgb(62, 62, 230);
+    border-radius: 10px;
+    margin:200px auto 0 auto;
+    display:block;
+    text-align: center;
+}
+#inner {
+    
+    /* background:#FFCC33; */
+    margin-top: 70px;
+    text-align: center;    
+    display:inline-block;
+}
+
+/* manewrować margintop w inner i height w outer */

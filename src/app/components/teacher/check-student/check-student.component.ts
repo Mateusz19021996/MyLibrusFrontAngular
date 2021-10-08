@@ -31,11 +31,11 @@ export class CheckStudentComponent implements OnInit {
   }
 
   editStudent(id: number){    
-    this.router.navigate(['/editStudent', id]);    
+    this.router.navigate(['teacherPanel/editStudent', id]);    
   }
 
   showGrades(id: number){
-    this.router.navigate(['/showGrades', id]);
+    this.router.navigate(['teacherPanel/showGrades', id]);
   }
 
   deleteStudent(id: number){

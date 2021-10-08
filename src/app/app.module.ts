@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+// npm install @auth0/angular-jwt --save
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CheckStudentComponent } from './components/teacher/check-student/check-student.component';
@@ -14,6 +14,17 @@ import { EditStudentComponent } from './components/teacher/edit-student/edit-stu
 import { SingleStudentComponent } from './components/teacher/single-student/single-student.component';
 import { SingleSubjectGradesComponent } from './components/teacher/single-student/single-subject-grades/single-subject-grades.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { LoginComponent } from './components/home/login/login.component';
+import { HomeComponent } from './components/home/home.component';
+import { RegisterComponent } from './components/home/register/register.component';
+import { RouterModule } from '@angular/router';
+import { JwtModule } from '@auth0/angular-jwt';
+import { AuthGuardService } from './services/auth-guard.service';
+
+export function tokenGetter(){
+  return localStorage.getItem("jwt");
+}
+
 
 @NgModule({
   declarations: [
@@ -24,16 +35,27 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AddStudentComponent,
     EditStudentComponent,
     SingleStudentComponent,
-    SingleSubjectGradesComponent    
+    SingleSubjectGradesComponent,
+    LoginComponent,
+    HomeComponent,
+    RegisterComponent    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    RouterModule,
+    JwtModule.forRoot({
+      config:{
+        tokenGetter: tokenGetter,
+        allowedDomains:["localhost:4200"],
+        disallowedRoutes:[]
+      }
+    })
   ],
-  providers: [SharedServisService],
+  providers: [AuthGuardService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

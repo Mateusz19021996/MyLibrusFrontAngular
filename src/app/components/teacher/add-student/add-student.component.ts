@@ -33,9 +33,9 @@ export class AddStudentComponent implements OnInit {
       street: this.street,
       mail: this.mail 
     }
-
+    console.log(newStudent);
     this.service.addStudent(newStudent).subscribe((result) => {});
-    //console.log(newStudent);
+    
 
     this.name ='';
     this.lastName = '';

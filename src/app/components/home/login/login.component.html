@@ -1,0 +1,17 @@
+<form class="form-signin" #kaletaForm="ngForm" (ngSubmit) = "login(kaletaForm)" style="margin-top: 50px;">
+    <div class="container-fluid">
+        <div *ngIf="invalidLogin" class="alert alert-danger">Invalid username or password.</div>
+        <label for="username" class="sr-only">Email adress</label>
+        <input type="text" id="email" name="email" ngModel class="form-control" placeholder="type mail">
+
+        <br>
+
+        <label for="password" class="sr-only">Email adress</label>
+        <input type="text" id="password" name="password" ngModel class="form-control" placeholder="type password">
+
+        <br>
+
+        <button class="btn bth-lg btn-primary btn-block" type="submit">LoginTo</button>
+    </div>
+</form>
+{{kaletaForm.value |json}}

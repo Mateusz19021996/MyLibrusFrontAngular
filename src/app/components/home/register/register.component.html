@@ -1,0 +1,43 @@
+<h1>register user</h1>
+<div class="container">
+    <form #registerUser="ngForm">
+        <div>
+            <label for="firstName">First name</label>
+            <input type="text" name="firstName" ngModel>
+        </div>
+        <div>
+            <label for="lastName">lirst name</label>
+            <input type="text" name="lastName" ngModel>
+        </div>
+        <div>
+            <label for="mail">mail</label>
+            <input type="mail" name="mail" ngModel>
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="text" name="password" ngModel>
+        </div>
+        <div>
+            <label for="nationality">nationality</label>
+            <input type="text" name="nationality" ngModel>
+        </div>
+        <div>
+            <label for="dateOfBirth">dateOf Birth</label>
+            <input type="date" name="dateOfBirth" ngModel>
+        </div>
+        <div>
+            <label for="roleId">RoleId</label>
+            <input type="number" name="roleId" ngModel>
+        </div>
+        
+    </form>
+</div>
+
+
+firstName: string,
+    lastName: string,
+    mail: string,
+    password: string,
+    nationality: string,
+    dateOfBirth: Date,
+    roleId: number

@@ -1,8 +1,11 @@
 export interface CreateUserDTO {
     
-    Id: number;
-    SingleGrade: number;
-    Subject: string;
-    StudentId: number;
+    firstName: string,
+    lastName: string,
+    mail: string,
+    password: string,
+    nationality: string,
+    dateOfBirth: Date,
+    roleId: number
     
 }

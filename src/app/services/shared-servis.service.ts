@@ -5,6 +5,7 @@ import { CreateStudentDTO } from 'src/Models/CreateDTO/CreateStudentDTO';
 import { EditStudentDTO } from 'src/Models/EditDTO/EditStudentDTO';
 import { Observable } from 'rxjs';
 import { GetStudentGradesDTO } from 'src/Models/GetDTO/GetStudentGradesDTO';
+import { LoginDTO } from 'src/Models/LoginDTO/LoginDTO';
 
 @Injectable({
   providedIn: 'root'
@@ -44,6 +45,12 @@ export class SharedServisService {
   getStudentGrades(id: number){
     console.log("getStudentGradesWorks")
     return this.http.get<GetStudentGradesDTO[]>(this.myURL2 + "/grade/" + id)    
+  }
+
+  // auth and autor part 
+
+  login(login: LoginDTO){
+    return this.http.post<LoginDTO>(this.myURL2 + "/account/login", login)
   }
 
 }
