@@ -6,6 +6,8 @@ import { EditStudentDTO } from 'src/Models/EditDTO/EditStudentDTO';
 import { Observable } from 'rxjs';
 import { GetStudentGradesDTO } from 'src/Models/GetDTO/GetStudentGradesDTO';
 import { LoginDTO } from 'src/Models/LoginDTO/LoginDTO';
+import { GetStudentTwoDTO } from 'src/Models/GetDTO/GetStudentTwoDTO';
+import { GetStudentWithGradesFromSubjectDTO } from 'src/Models/GetDTO/GetStudentWithGradesFromSubjectDTO';
 
 @Injectable({
   providedIn: 'root'
@@ -14,6 +16,7 @@ export class SharedServisService {
 
   //private myURL = 'http://localhost:4003'
   private myURL2 = "https://localhost:5001/api"
+  private myURL3 = "https://localhost:5001"
 
   constructor(private http: HttpClient) { 
     this.getStudents();
@@ -24,8 +27,12 @@ export class SharedServisService {
   }
 
   getStudent(val: any){
-    return this.http.get<GetStudentDTO>(this.myURL2 + '/Student/' + val)
-  }
+    return this.http.get<GetStudentDTO>(this.myURL2 + '/Student/' + val, {
+      headers: new HttpHeaders({
+        "Content-Type":"application/json"
+      })})
+    }
+  
 
   editStudent(student: EditStudentDTO, id: number){
     console.log(student)
@@ -45,6 +52,18 @@ export class SharedServisService {
   getStudentGrades(id: number){
     console.log("getStudentGradesWorks")
     return this.http.get<GetStudentGradesDTO[]>(this.myURL2 + "/grade/" + id)    
+  }
+
+  getAllClasses(){
+    return this.http.get<any>(this.myURL2 + "/Class")
+  }
+
+  getAllStudentsForOneClass(nameOfClass: string){
+    return this.http.get<GetStudentTwoDTO[]>(this.myURL2 + "/Class/" + nameOfClass)
+  }
+
+  getAllStudentsGradesForAllClass(nameOfClass: string, nameOfSubject: string){
+    return this.http.get<GetStudentWithGradesFromSubjectDTO[]>(this.myURL3 + "/subject/" + nameOfClass + "/" + nameOfSubject)
   }
 
   // auth and autor part 
