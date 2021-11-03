@@ -20,6 +20,12 @@ import { RegisterComponent } from './components/home/register/register.component
 import { RouterModule } from '@angular/router';
 import { JwtModule } from '@auth0/angular-jwt';
 import { AuthGuardService } from './services/auth-guard.service';
+import { SingleClassComponent } from './components/teacher/check-classes/single-class/single-class.component';
+import { SingleFullClassComponent } from './components/teacher/check-classes/single-full-class/single-full-class.component';
+import { SingleClassSubjectsComponent } from './components/teacher/check-classes/single-class-subjects/single-class-subjects.component';
+import { NgxPaginationModule } from 'ngx-pagination';
+
+
 
 export function tokenGetter(){
   return localStorage.getItem("jwt");
@@ -38,7 +44,11 @@ export function tokenGetter(){
     SingleSubjectGradesComponent,
     LoginComponent,
     HomeComponent,
-    RegisterComponent    
+    RegisterComponent,
+    SingleClassComponent,
+    SingleFullClassComponent,
+    SingleClassSubjectsComponent
+
   ],
   imports: [
     BrowserModule,
@@ -46,6 +56,7 @@ export function tokenGetter(){
     HttpClientModule,
     FormsModule,
     FontAwesomeModule,
+    NgxPaginationModule,
     RouterModule,
     JwtModule.forRoot({
       config:{

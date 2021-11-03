@@ -1,9 +1,35 @@
-<button (click)="GetAllClass()">GetAllClass</button>
+<div class="container">    
+    <div class="row justify-content-md-center">      
+      <app-single-class *ngFor = "let singleClass of classes" [singleClass] = "singleClass" ></app-single-class>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <button (click)="GetAllClass()">GetAllClass</button>
 
 
 
 <button (click)="GetAllStudentsForOneClass(a)">GetAllStudentsForOneClass()</button>
 
-<button (click)="getAllStudentsGradesForAllClass(b, c)">GetAllStudentsForOneClass()</button>
+<button (click)="getAllStudentsGradesForAllClass(b, c)">GetAllStudentsForOneClass()</button> -->
 
 

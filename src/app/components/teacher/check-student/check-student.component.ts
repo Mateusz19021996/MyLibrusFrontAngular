@@ -15,6 +15,8 @@ export class CheckStudentComponent implements OnInit {
 
   studentsList: GetStudentDTO[];
   gradess: Grade;
+  currentPage: number = 3
+  itemsPerPage: number;
 
   constructor(private service: SharedServisService,
               private route: ActivatedRoute,
@@ -22,6 +24,11 @@ export class CheckStudentComponent implements OnInit {
 
   ngOnInit(): void {
     this.getStudents();
+    
+  }
+
+  valueAssign(){
+    console.log(this.itemsPerPage);
   }
 
   getStudents(){

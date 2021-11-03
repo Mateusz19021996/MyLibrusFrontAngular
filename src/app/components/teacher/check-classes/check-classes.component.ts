@@ -16,27 +16,22 @@ export class CheckClassesComponent implements OnInit {
   b: string
   c: string
 
-  studentsOfClass: GetStudentTwoDTO[]
+  
 
   studentsWithGrades: GetStudentWithGradesFromSubjectDTO[]
 
   constructor(private service: SharedServisService) { }
 
   ngOnInit(): void {
+    this.getAllClass()
   }
 
-  GetAllClass(){
+  getAllClass(){
     this.service.getAllClasses().subscribe((data) => this.classes = data)
     console.log(this.classes);
   }
 
-  GetAllStudentsForOneClass(nameOfClass: string){
-    nameOfClass = "3B"
-    this.service.getAllStudentsForOneClass(nameOfClass)
-    .subscribe((data) => this.studentsOfClass = data)
-
-    console.log(this.studentsOfClass)
-  }
+  
 
   getAllStudentsGradesForAllClass(nameOfClass: string, nameOfSubject: string){
     nameOfClass = "1A"

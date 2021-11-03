@@ -64,8 +64,8 @@ export class SharedServisService {
 
   getAllStudentsGradesForAllClass(nameOfClass: string, nameOfSubject: string){
     return this.http.get<GetStudentWithGradesFromSubjectDTO[]>(this.myURL3 + "/subject/" + nameOfClass + "/" + nameOfSubject)
-  }
-
+  }  
+ 
   // auth and autor part 
 
   login(login: LoginDTO){

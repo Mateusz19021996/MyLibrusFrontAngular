@@ -1,0 +1,18 @@
+.singleClass{
+    width: 150px;
+    height: 135px;
+    /* background-color: rgb(6, 154, 240); */
+    /* background-color: rgb(28, 46, 56); */
+    margin: 40px 40px 40px 40px;
+        
+    
+}
+
+.myButton{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(6, 154, 240);
+    font-size: 50px;
+    color: aliceblue; 
+    text-align: center;
+}
