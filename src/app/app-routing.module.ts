@@ -4,6 +4,9 @@ import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/home/login/login.component';
 import { AddStudentComponent } from './components/teacher/add-student/add-student.component';
 import { CheckClassesComponent } from './components/teacher/check-classes/check-classes.component';
+import { SingleClassSubjectsComponent } from './components/teacher/check-classes/single-class-subjects/single-class-subjects.component';
+import { SingleClassComponent } from './components/teacher/check-classes/single-class/single-class.component';
+import { SingleFullClassComponent } from './components/teacher/check-classes/single-full-class/single-full-class.component';
 import { CheckStudentComponent } from './components/teacher/check-student/check-student.component';
 import { EditStudentComponent } from './components/teacher/edit-student/edit-student.component';
 import { SingleStudentComponent } from './components/teacher/single-student/single-student.component';
@@ -22,7 +25,10 @@ const routes: Routes = [
       {path: "checkClasses",component: CheckClassesComponent,canActivate: [AuthGuardService],},
       {path: "addStudent",component: AddStudentComponent,canActivate: [AuthGuardService],},
       {path: "editStudent/:id",component: EditStudentComponent,canActivate: [AuthGuardService],},
-      {path: "showGrades/:id",component: SingleStudentComponent,canActivate: [AuthGuardService],},
+      {path: "showGrades/:id",component: SingleStudentComponent,canActivate: [AuthGuardService],},      
+      {path: "singleFullClass/:nameOfClass",component: SingleFullClassComponent},
+      {path: "singleClassSubjects",component: SingleClassSubjectsComponent},
+      
     ]
   },
   //{path: "editStudent/:id",component: EditStudentComponent},
